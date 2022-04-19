@@ -1,4 +1,3 @@
-from email.policy import default
 from typing import Set
 from typedconfig import Config, key, section
 

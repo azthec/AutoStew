@@ -15,6 +15,3 @@ class Repo(TypedDict):
     project: Project
     public: bool
     links: Links
-
-
-

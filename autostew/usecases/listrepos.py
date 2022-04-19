@@ -1,8 +1,8 @@
-from atlassian import Bitbucket
+from clients.vcs_server import VCSServer
 from config.app import AppConfig
 
 
-def run(app_config: AppConfig, bitbucket: Bitbucket):
+def run(app_config: AppConfig, bitbucket: VCSServer):
     print()
     for project in app_config.projects:
         print(project)
